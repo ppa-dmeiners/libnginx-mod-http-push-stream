@@ -1,0 +1,71 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: memc-nginx-module
+Upstream-Contact: Wandenberg Peixoto <wandenberg@gmail.com>
+Source: https://github.com/wandenberg/nginx-push-stream-module
+Files-Excluded: misc/js/jquery.min.js
+
+Files: *
+Copyright: 2010-2022 Wandenberg Peixoto <wandenberg@gmail.com>
+ Rogério Carvalho Schneider <stockrt@gmail.com>
+License: GPL-3+
+
+Files: include/ngx_http_push_stream_module_ipc.h
+ include/ngx_http_push_stream_rbtree_util.h
+Copyright: 2009, Leo Ponomarev
+License: Expat
+
+Files: misc/js/pushstream.js
+Copyright: 2010-2014, wWandenberg Peixoto <wandenberg@gmail.com>
+ Rogério Carvalho Schneider <stockrt@gmail.com>
+License: Expat
+
+Files: misc/tools/*
+Copyright: 2011, Michael Costello, Wandenberg Peixoto <wandenberg@gmail.com>
+License: GPL-3+
+
+Files: src/ngx_http_push_stream_module_ipc.c
+ src/ngx_http_push_stream_rbtree_util.c
+Copyright: 2009, Leo Ponomarev
+License: Expat
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation
+ files (the "Software"), to deal in the Software without
+ restriction, including without limitation the rights to use,
+ copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following
+ conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ All files in this program are under GPL unless otherwise noted in
+ file's header. Some files may be sublicensed.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-3'.

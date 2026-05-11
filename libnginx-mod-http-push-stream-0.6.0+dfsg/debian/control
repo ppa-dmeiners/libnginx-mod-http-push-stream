@@ -1,0 +1,23 @@
+Source: libnginx-mod-http-push-stream
+Section: httpd
+Priority: optional
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Uploaders: Jérémy Lal <kapouer@melix.org>,
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-nginx,
+               nginx-dev (>= 1.24.0-2),
+Standards-Version: 4.7.2
+Homepage: https://github.com/wandenberg/nginx-push-stream-module
+Vcs-Git: https://salsa.debian.org/nginx-team/libnginx-mod-http-push-stream.git
+Vcs-Browser: https://salsa.debian.org/nginx-team/libnginx-mod-http-push-stream
+Rules-Requires-Root: no
+
+Package: libnginx-mod-http-push-stream
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: nginx,
+Description: HTTP push stream module for Nginx
+ This module lets Nginx handles HTTP push streams like
+ Event Source, WebSocket, Long Polling, JSONP, M-JPEG, and more.
